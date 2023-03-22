@@ -12,7 +12,7 @@ const Home = () => {
         const token = localStorage.getItem("token");
 
         axios
-            .get(`${process.env.REACT_APP_PHYSIOAPP_BACKEND}/patients`, {
+            .get(`/patients`, {
                 headers: { Authorization: `Bearer ${token}` },
             })
             .then((res) => {

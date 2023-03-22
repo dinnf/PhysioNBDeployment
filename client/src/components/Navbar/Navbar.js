@@ -11,7 +11,7 @@ const Navbar = () => {
         const token = localStorage.getItem("token");
 
         axios({
-            url: `${process.env.REACT_APP_PHYSIOAPP_BACKEND}/users/logout`,
+            url: `/users/logout`,
             method: "POST",
             headers: {
                 Authorization: `Bearer ${token}`,

@@ -35,7 +35,7 @@ const CreateNote = () => {
     const getPatientName = () => {
         axios({
             method: "GET",
-            url: `${process.env.REACT_APP_PHYSIOAPP_BACKEND}/patients/${id}`,
+            url: `/patients/${id}`,
             headers: {
                 "Content-Type": "application/json",
                 Authorization: `Bearer ${token}`,
@@ -53,7 +53,7 @@ const CreateNote = () => {
 
         axios({
             method: "POST",
-            url: `${process.env.REACT_APP_PHYSIOAPP_BACKEND}/notes`,
+            url: `/notes`,
             headers: {
                 "Content-Type": "application/json",
                 Authorization: `Bearer ${token}`,

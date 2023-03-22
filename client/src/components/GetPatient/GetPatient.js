@@ -11,7 +11,7 @@ function GetPatient() {
         const token = localStorage.getItem("token");
 
         axios
-            .get(`${process.env.REACT_APP_PHYSIOAPP_BACKEND}/patients/${id}`, {
+            .get(`/patients/${id}`, {
                 headers: { Authorization: `Bearer ${token}` },
             })
             .then((res) => {

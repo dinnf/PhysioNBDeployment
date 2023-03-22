@@ -15,7 +15,7 @@ const Signin = () => {
 
         axios({
             method: "POST",
-            url: `${process.env.REACT_APP_PHYSIOAPP_BACKEND}/users/login`,
+            url: `/users/login`,
             headers: {
                 "Content-Type": "application/json",
             },

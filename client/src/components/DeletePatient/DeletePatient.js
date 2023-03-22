@@ -11,7 +11,7 @@ const DeletePatient = () => {
     const navigate = useNavigate();
     const token = localStorage.getItem("token");
     axios({
-        url: `${process.env.REACT_APP_PHYSIOAPP_BACKEND}/patients/${id}`,
+        url: `/patients/${id}`,
         method: "GET",
         headers: {
             Authorization: `Bearer ${token}`,
@@ -26,7 +26,7 @@ const DeletePatient = () => {
 
     const handleYesDelete = () => {
         axios({
-            url: `${process.env.REACT_APP_PHYSIOAPP_BACKEND}/patients/${id}`,
+            url: `/patients/${id}`,
 
             method: "DELETE",
             headers: {

@@ -9,7 +9,7 @@ function GetUser() {
         const token = localStorage.getItem("token");
 
         axios
-            .get(`${process.env.REACT_APP_PHYSIOAPP_BACKEND}/users/me`, {
+            .get(`/users/me`, {
                 headers: { Authorization: `Bearer ${token}` },
             })
             .then((res) => {

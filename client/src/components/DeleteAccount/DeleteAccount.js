@@ -13,7 +13,7 @@ function DeleteAccount() {
         
 
         axios({
-            url: `${process.env.REACT_APP_PHYSIOAPP_BACKEND}/users/delete`,
+            url: `/users/delete`,
             method: "DELETE",
             headers: {
                 Authorization: `Bearer ${token}`,

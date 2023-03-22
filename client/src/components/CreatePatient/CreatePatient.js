@@ -19,7 +19,7 @@ function CreatePatient() {
     
             axios({
                 method: "POST",
-                url: `${process.env.REACT_APP_PHYSIOAPP_BACKEND}/patients`,
+                url: `/patients`,
                 headers: {
                     "Content-Type": "application/json",
                     Authorization: `Bearer ${token}`,
