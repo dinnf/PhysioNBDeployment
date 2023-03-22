@@ -20,7 +20,7 @@ function Signup() {
 
         axios({
             method: "POST",
-            url: `${process.env.REACT_APP_PHYSIOAPP_BACKEND}/users/`,
+            url: `/users/`,
             headers: {
                 "Content-Type": "application/json",
             },
