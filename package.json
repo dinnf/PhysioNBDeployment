@@ -7,7 +7,7 @@
 },
   "scripts": {
     "dev": "env-cmd -f ./config/dev.env nodemon ./src/app.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm config set legacy-peer-deps true npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm config set legacy-peer-deps true && npm install --prefix client && npm run build --prefix client"
   },
   "author": "Denis Finn",
   "license": "ISC",
