@@ -27,7 +27,7 @@ const DeleteTask = () => {
             console.log(e.message);
         });
 
-    const handleYesDelete = () => {
+    const handleYesDeleteNote = () => {
         axios({
             url: `/notes/${id}`,
 
@@ -56,7 +56,7 @@ const DeleteTask = () => {
                     No
                 </button>
                 <button
-                    onClick={handleYesDelete}
+                    onClick={handleYesDeleteNote}
                     className="YesDeleteButton DeleteButton"
                 >
                     Yes

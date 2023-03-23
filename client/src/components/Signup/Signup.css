@@ -72,16 +72,15 @@ text-align:right; }
     } 
     .Signup {
         overflow: auto;
-        text-align: center;
         height: 150vh;
         display: block;
-        justify-content: center;
     }
-    .SignupForm{
-       margin: none;
+    .Form{
+        margin: auto;
     }
     .SignupHead {
         margin: 20px;
         margin-top: 30px;
+        text-align: center;
     }
     }

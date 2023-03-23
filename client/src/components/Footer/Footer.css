@@ -32,3 +32,6 @@
 .Routes:hover {
     text-decoration: underline;
 }
+.details {
+    text-decoration: none;
+}
