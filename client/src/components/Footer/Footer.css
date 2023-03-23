@@ -1,9 +1,13 @@
 .Footer {
     background-color: rgb(47, 87, 37);
-    height: 80px;
+    height: 12vh;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
 }
 
 .FooterTitle {
