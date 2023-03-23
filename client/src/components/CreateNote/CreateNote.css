@@ -124,5 +124,12 @@ textarea {
   @media only screen and (max-width: 600px)  {
     .BigContainer {
       display: block;
+      margin: auto;
     }
+    .bodychart {
+      display: none;
+    }
+   .TextHead {
+    margin-top: 20px;
+   } 
   }
