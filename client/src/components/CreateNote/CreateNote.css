@@ -73,6 +73,7 @@
 */
 .BigContainer {
     display:flex;
+    width: 100vw;
 }
 .NoteForm {
     width:30%;
@@ -119,4 +120,9 @@ textarea {
   .assessmentHead {
     width:80%;
     padding-left: 100px;
+  }
+  @media only screen and (max-width: 600px)  {
+    .BigContainer {
+      display: block;
+    }
   }
