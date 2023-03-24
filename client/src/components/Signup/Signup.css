@@ -7,7 +7,7 @@
     height: 92.1vh;
     width: 100vw;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 .FormInput {
     height: 35px;

@@ -45,9 +45,10 @@ function Signup() {
                 <form>
                     <div className="Form">
                     <div className="SignupFormUsername FormRow">
-                        <span className="FormLabel" for="sufusername">Username</span>
+                        <span for="username" className="FormLabel">Username</span>
                         <input
-                            id="sufusername"
+                            id="username"
+                            name="username"
                             type="text"
                             className="FormInput"
                             required
@@ -58,9 +59,8 @@ function Signup() {
                         />
                     </div>
                     <div className="FormPassword FormRow">
-                        <span className="FormLabel" for="sufpassword">Password</span>
+                        <span className="FormLabel">Password</span>
                         <input
-                            id="sufpassword"
                             type="password"
                             className="FormInput"
                             required
@@ -71,9 +71,8 @@ function Signup() {
                         />
                     </div>
                     <div className="SignupFormFirstName FormRow">
-                        <span className="FormLabel" for="suffirstname">First Name</span>
+                        <span className="FormLabel">First Name</span>
                         <input
-                            id="suffirstname"
                             type="text"
                             className="FormInput"
                             required
@@ -84,9 +83,8 @@ function Signup() {
                         />
                     </div>
                     <div className="SignupFormLastName FormRow">
-                        <span className="FormLabel" for="suflastname">Last Name</span>
+                        <span className="FormLabel">Last Name</span>
                         <input
-                            id="suflastname"
                             type="text"
                             className="FormInput"
                             required
@@ -97,9 +95,8 @@ function Signup() {
                         />
                     </div>
                     <div className="SignupFormEmail FormRow">
-                        <span className="FormLabel" for="sufemail">Email</span>
+                        <span className="FormLabel">Email</span>
                         <input
-                            id="sufemail"
                             type="text"
                             className="FormInput"
                             required
@@ -110,9 +107,8 @@ function Signup() {
                         />
                     </div>
                     <div className="SignupFormDesignation FormRow">
-                        <span className="FormLabel" for="sufdesignation">Designation</span>
+                        <span className="FormLabel">Designation</span>
                         <input
-                            for="sufdesignation"
                             type="text"
                             className="FormInput"
                             required
