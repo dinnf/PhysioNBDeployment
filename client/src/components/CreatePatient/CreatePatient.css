@@ -8,6 +8,7 @@
     height: 130vh;
     width: 100vw;
     overflow: auto;
+    color: white;
     
 }
 .NewPatientHead {
@@ -26,4 +27,14 @@
 
 .DelIcon:hover {
     color: rgb(255, 217, 0);
+}
+@media only screen and (max-width: 600px)  {
+.CreateNewPatient, .FirstName, .LastName, .Email, .Telephone, .Address, .dateofbirth {
+    margin: auto;
+    text-align: center;
+}
+.FormInput {
+    margin: auto;
+    text-align: center;
+}
 }
