@@ -86,7 +86,7 @@ textarea {
 .FormContent {
     background-color: rgb(75, 139, 59);
     padding: 20px;
-    height: 200vh;
+    height: 350vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -136,4 +136,7 @@ textarea {
    .TextHead {
     margin-top: 20px;
    } 
+   .LeftColumn, .RightColumn {
+    text-align: center;
+   }
   }
