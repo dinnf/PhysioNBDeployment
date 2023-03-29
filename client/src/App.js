@@ -31,6 +31,7 @@ function App() {
                     <Route path="/deletepatient/:id" element={<DeletePatientPage />} />
                     <Route path="/createassessment/:id" element={<CreateNotePage />} />
                     <Route path="/deleteaccount" element={<DeleteAccountPage />} />
+                    <Route path="/deletenote" element={<DeletePage />} />
                     <Route path="/getnote/:id/:firstname/:lastname" element={<GetNotePage />} />
                     <Route path="/getpatient/:id" element={<GetPatientPage />}/>
                     <Route path="/mydetails" element={<GetUserDetailsPage />}/>

@@ -35,7 +35,7 @@ function GetNote() {
     }, [setPatientsNotes]);
     
   return (
-    <div className="FormContent">
+    <div className="FormContent GetNoteContent">
         {PatientsNotes.map((PatientsNotesList) => { 
             console.log(PatientsNotesList.hpc)
             return (
@@ -194,7 +194,7 @@ function GetNote() {
     </div>
     
 </div>
-<Link to={`/deletepatient`}><span className="DelIcon"><DeleteIcon /></span></Link>
+<Link to={`/deletetask/${PatientsNotesList._id}`}><span className="DelIcon"><DeleteIcon /></span></Link>
 </>) 
 
         })}     
