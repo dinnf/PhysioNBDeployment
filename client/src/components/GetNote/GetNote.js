@@ -48,10 +48,10 @@ function GetNote() {
             {PatientsNotesList.hpc && <div className="NoteForm">
         
         <h3 className="TextHead">History of Presenting Complaint</h3>
-        <textarea
+        <p
             className="NoteText"
-            value={PatientsNotesList.hpc}
-        />
+            value={PatientsNotesList.hpc}>
+        </p>
     </div>}
     {PatientsNotesList.symptoms && <div className="NoteForm">
         <h3 className="TextHead">Symptoms</h3>

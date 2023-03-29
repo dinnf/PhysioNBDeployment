@@ -68,3 +68,6 @@
     color: rgb(255, 62, 62);
     border: 2px solid rgb(255, 62, 62);
 }
+.DeleteTask {
+    background-color: rgb(75, 139, 59);
+}
