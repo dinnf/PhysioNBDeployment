@@ -134,9 +134,11 @@ td {
     }
     td {
         display: block;
+        width: 80%;
     }
     td:first-child {
         text-align: center;
+        color: black;
     }
     td:nth-child(2)::before {
         content: "First Name"
@@ -157,5 +159,6 @@ td {
         float: left;
         margin-right: 3rem;
         font-weight: bold;
+        color: black;
     }
 }
