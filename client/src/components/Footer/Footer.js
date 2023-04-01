@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="Router">
                 <span className="Routes">About</span>
                 <a href="https://www.linkedin.com/in/denis-finn-44768214b/" target="_blank"><span className="Routes">Contact</span></a>
-                <Link to={`/mydetails`}> <span className="Routes details" style="text-decoration:none;">My Details</span></Link>
+                <Link to={`/mydetails`}> <span className="Routes details">My Details</span></Link>
             </div>
         </div>
     );
