@@ -1,12 +1,11 @@
 .Home {
     background-color: rgb(75, 139, 59);
-    min-height: 40vh;
     color: rgb(255, 255, 255);
     padding: 30px;
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
-    align-items: top;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
     margin-top: 70px;
     overflow: auto;
 }
@@ -127,4 +126,36 @@ td {
     color: white;
     cursor: pointer;
     text-decoration: none;
+}
+
+@media screen and (max-width: 730px) {
+    thead {
+        display: none;
+    }
+    td {
+        display: block;
+    }
+    td:first-child {
+        text-align: center;
+    }
+    td:nth-child(2)::before {
+        content: "First Name"
+    }
+    td:nth-child(3)::before {
+        content: "Last Name"
+    }
+    td:nth-child(4)::before {
+        content: "Create Note"
+    }
+    td:nth-child(5)::before {
+        content: "Delete Note"
+    }
+    td {
+        text-align: right;
+    }
+    td::before {
+        float: left;
+        margin-right: 3rem;
+        font-weight: bold;
+    }
 }

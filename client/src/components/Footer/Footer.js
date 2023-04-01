@@ -8,8 +8,8 @@ const Footer = () => {
             <h2 className="FooterTitle">PhysioNB</h2>
             <div className="Router">
                 <span className="Routes">About</span>
-                <span className="Routes">Contact</span>
-                <Link to={`/mydetails`}> <span className="Routes details">My Details</span></Link>
+                <a href="https://www.linkedin.com/in/denis-finn-44768214b/" target="_blank"><span className="Routes">Contact</span></a>
+                <Link to={`/mydetails`}> <span className="Routes details" style="text-decoration:none;">My Details</span></Link>
             </div>
         </div>
     );
