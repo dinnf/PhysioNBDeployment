@@ -157,4 +157,7 @@ textarea {
    .TextHead {
     width: 100%;
    }
+   .GetNoteContainer {
+    width: 80%;
+   }
   }

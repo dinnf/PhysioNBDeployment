@@ -40,7 +40,7 @@ function GetNote() {
         {PatientsNotes.map((PatientsNotesList) => { 
             return (
                 <>
-            <div className="BigContainer">
+            <div className="BigContainer GetNoteContainer">
 
             <div className="LeftColumn">
                 <hr />
@@ -168,7 +168,7 @@ function GetNote() {
     {PatientsNotesList.specialquestions && <div className="NoteForm">
         <h3 className="TextHead">Notes</h3>
         <p
-            className="NoteText">
+            className="noteParagraph">
             {PatientsNotesList.specialquestions}
             </p>
     </div>}
