@@ -131,7 +131,7 @@ textarea {
     }
     .BigContainer {
       display: block;
-      margin: auto;
+      margin: 10px;
       text-align: center;
     }
     .bodychart {
