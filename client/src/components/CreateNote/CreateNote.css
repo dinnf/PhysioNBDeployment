@@ -125,6 +125,10 @@ textarea {
     padding-left: 100px;
   }
   @media only screen and (max-width: 600px)  {
+    .FormContent {
+      justify-content: center;
+      align-items: center;
+    }
     .BigContainer {
       display: block;
       margin: auto;
@@ -137,6 +141,9 @@ textarea {
     margin-top: 20px;
    } 
    .LeftColumn, .RightColumn {
+    text-align: center;
+   }
+   .assessmentHead {
     text-align: center;
    }
   }
