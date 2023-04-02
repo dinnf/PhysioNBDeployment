@@ -127,7 +127,7 @@ textarea {
   @media only screen and (max-width: 600px)  {
     .FormContent {
       justify-content: flex-start;
-      align-items: center;
+      align-items: flex-start;
     }
     .BigContainer {
       display: block;

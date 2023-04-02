@@ -88,6 +88,7 @@ const Home = () => {
                                 
                                 </Link>
                                 </td>
+                                <hr />
                                 </tr>
                     
                         ))}</tbody></table>{" "}
