@@ -73,7 +73,9 @@
 }
 @media screen and (max-width: 600px) {
     .DeleteTask {
+        margin-top: 30vh;
         padding: 10px;
+        height: calc(100vh - 12vh -70px)
     }
     
 }
