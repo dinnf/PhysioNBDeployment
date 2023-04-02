@@ -146,6 +146,8 @@ textarea {
    }
    .assessmentHead {
     text-align: center;
+    padding: 5px;
+
    }
    .NoteForm {
     text-align: center;
