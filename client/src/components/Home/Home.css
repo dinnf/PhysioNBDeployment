@@ -129,33 +129,36 @@ td {
 }
 
 @media screen and (max-width: 730px) {
-    thead {
+    .theadd {
         display: none;
     }
-    td {
+    .tdd {
         display: block;
         width: 80%;
     }
-    td:first-child {
+    .tdd:first-child {
         text-align: center;
         color: black;
     }
-    td:nth-child(2)::before {
+    .tdd:nth-child(2)::before {
         content: "First Name"
     }
-    td:nth-child(3)::before {
+    .tdd:nth-child(3)::before {
         content: "Last Name"
     }
-    td:nth-child(4)::before {
+    .tdd:nth-child(4)::before {
         content: "Create Note"
     }
-    td:nth-child(5)::before {
+    .tdd:nth-child(5)::before {
+        content: "View Note"
+    }
+    .tdd:nth-child(6)::before {
         content: "Delete Note"
     }
-    td {
+    .tdd {
         text-align: right;
     }
-    td::before {
+    .tdd::before {
         float: left;
         margin-right: 3rem;
         font-weight: bold;

@@ -45,7 +45,7 @@ const Home = () => {
                     <div>
                         {" "}
                         <table className="patientsTable">
-                            <thead>
+                            <thead class="theadd">
                         <tr>
                                     <th>NHI</th>
                                     <th>First Name</th>
@@ -58,30 +58,30 @@ const Home = () => {
                                 <tbody>
                         {patientList.map((patient) => (
                             <tr className="Patient">
-                               <td>
+                               <td class="tdd">
                                <Link className="routes" to={`/getpatient/${patient._id}`}>
                                 {patient.patientId}
                                 </Link>
                                 </td>
-                                <td>
+                                <td class="tdd">
                                 {patient.firstname} 
                                 </td>
-                                <td>
+                                <td class="tdd">
                                 {patient.lastname}
                                 </td>
-                                <td>
+                                <td class="tdd">
                                     <Link to={`/createassessment/${patient._id}`}>
                                         <div>
                                         <button className="AddBtn">+</button>
                                         </div>
                                 </Link>
                                 </td>
-                                <td><Link to={`/getnote/${patient._id}/${patient.firstname}/${patient.lastname}`}>
+                                <td class="tdd"><Link to={`/getnote/${patient._id}/${patient.firstname}/${patient.lastname}`}>
                                 
                                         <button className="GetNoteButton">View Notes</button>    
                                 </Link>
                                 </td>
-                                <td><Link to={`/deletepatient/${patient._id}`}>
+                                <td class="tdd"><Link to={`/deletepatient/${patient._id}`}>
                                     <span className="DelIcon">
                                         <DeleteIcon />
                                     </span>
