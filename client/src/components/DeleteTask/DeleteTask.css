@@ -71,3 +71,9 @@
 .DeleteTask {
     background-color: rgb(75, 139, 59);
 }
+@media screen and (max-width: 600px) {
+    .DeleteTask {
+        padding: 10px;
+    }
+    
+}
