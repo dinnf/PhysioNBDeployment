@@ -154,4 +154,7 @@ textarea {
    .dateSpan {
     text-align: center;
    }
+   .TextHead {
+    width: 100%;
+   }
   }
