@@ -139,6 +139,7 @@ textarea {
     }
    .TextHead {
     margin-top: 20px;
+    text-align: center;
    } 
    .LeftColumn, .RightColumn {
     text-align: center;
@@ -149,5 +150,8 @@ textarea {
    .NoteForm {
     text-align: center;
     width: 100%;
+   }
+   .dateSpan {
+    text-align: center;
    }
   }

@@ -1,3 +1,6 @@
 .GetNoteContent {
     display: flex;
 }
+.getNoteHeader {
+    margin-left: 20px;
+}
