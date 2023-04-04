@@ -157,7 +157,7 @@ td {
         content: "View Note"
     }
     .tdd:nth-child(6)::before {
-        content: "Delete Note"
+        content: "Delete Patient"
     }
     .tdd {
         text-align: right;
